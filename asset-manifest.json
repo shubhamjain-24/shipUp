@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/shubhamjain-24/shipUp.git/static/css/main.b162835f.css",
+    "main.js": "/shubhamjain-24/shipUp.git/static/js/main.2d5bf349.js",
+    "static/js/787.de8f85eb.chunk.js": "/shubhamjain-24/shipUp.git/static/js/787.de8f85eb.chunk.js",
+    "static/media/bg.png": "/shubhamjain-24/shipUp.git/static/media/bg.c8f4ba9eb0607a578bbf.png",
+    "static/media/navimg.png": "/shubhamjain-24/shipUp.git/static/media/navimg.9764ca07ebc6b173fa39.png",
+    "index.html": "/shubhamjain-24/shipUp.git/index.html",
+    "main.b162835f.css.map": "/shubhamjain-24/shipUp.git/static/css/main.b162835f.css.map",
+    "main.2d5bf349.js.map": "/shubhamjain-24/shipUp.git/static/js/main.2d5bf349.js.map",
+    "787.de8f85eb.chunk.js.map": "/shubhamjain-24/shipUp.git/static/js/787.de8f85eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b162835f.css",
+    "static/js/main.2d5bf349.js"
+  ]
+}
