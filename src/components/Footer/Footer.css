@@ -1,0 +1,98 @@
+/* Main Container for Footer Section */
+.footer_mainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    background-color: var(--color2);
+    margin-top: 30px;
+    font-family: var(--font1);
+    flex-direction: column;
+  }
+  
+  /* Flex Container for Footer Content */
+  .footer_flexContainer {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  .footer_div1,.footer_div2,.footer_div3,.footer_div4{
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+  }
+  .fd1_text1{
+    color: var(--color1);
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28.8px;
+  }
+  .fd1_text1_color{
+    color: #fff;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28.8px;
+  }
+  .fd1_text2{
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 20px;
+    text-align: left;
+  }
+  .fd2_text1{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.6px;
+    color: white;
+  }
+  .fd2_text2{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .fd2_list{
+    margin-top: 20px;
+  }
+  .fd4_iconsDiv{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr)); 
+    gap: 20px;
+    margin-top: 15px;
+  }
+  .fd4_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  .line {
+    border-bottom: 1px solid white;
+    margin-top: 50px;
+    width: 80%;
+  }
+  .fd_text{
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+  }
+  .fd_text_color,.fd_text_color2{
+    color: var(--color1);
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+}
+ .fd_text_color2{
+    color: #fff;
+ } 

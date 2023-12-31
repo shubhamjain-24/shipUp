@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import './style.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import LandingPage from "./Page/LandingPage/LandingPage";
+import Footer from './components/Footer/Footer';
+import CustomNavbar from './components/Navbar/Navbar';
+import Price_component from './components/Price/Price_component';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <CustomNavbar/>
+   {/* <LandingPage/> */}
+   {/* <Footer/> */}
+   {/* <Price_component/> */}
+   </>
   );
 }
 
