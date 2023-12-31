@@ -14,7 +14,7 @@ After this initial installation, run npm run-script install-all from the root di
 #Install root-level dependencies
 
 # Deployment
-I have deployed the app on github pages
+I have deployed the app on vercel
 
 
 
