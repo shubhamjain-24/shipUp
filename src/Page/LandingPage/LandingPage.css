@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 100px; ;
+    margin-top: 30px; ;
 }
 .LP_mainDiv {
   display: flex;
@@ -13,6 +13,7 @@
 .LP_subdiv1{
     flex: 1;
     padding: 50px;
+    position: relative;
 }
 .LP_text1{
     font-family: var(--font1);
@@ -77,6 +78,67 @@
     align-items: center;
     justify-content: center;
 }
+.circle_div{
+  position: absolute;
+  border: 1px solid #BCBDED;
+  height: 250%;
+  width: 1000px;
+  border-radius: 50%;
+  top: -125%;
+  z-index: -1;
+  left: -75%;
+}
+.vehicle_div{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  top: -10%;
+  left: 70%;
+  background-color: #ffffff;
+}
+.plane_div{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  top: 115%;
+  left: 12%;
+  background-color: #ffffff;
+}
+/* @media screen and (max-width: 1600px){
+  .vehicle_div{
+    top: -10%;
+    left: 60%;
+  }
+  .plane_div{
+    top: 105%;
+    left: 20%;
+  }
+} */
+@media screen and (max-width: 1100px){
+  .circle_div{
+    display: none;
+  }
+  .vehicle_div{
+    display: none;
+  }
+  .plane_div{
+    display: none;
+  }
+  .LP_mainContainer{
+    margin-top: 0px;
+  }
+}
+
 @media screen and (max-width: 1280px) {
     .LP_img {
       width: 100%;
@@ -101,7 +163,11 @@
       margin-bottom: 20px;
     }
   }
-  
+  @media screen and (max-width: 400px){
+    .LP_mainContainer {
+      width: 95%;
+    }
+  }
   @media screen and (max-width: 300px) {
     .LP_mainContainer {
       display: block;
@@ -115,4 +181,3 @@
       line-height: 32px;
     }
   }
-  

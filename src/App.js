@@ -10,9 +10,9 @@ function App() {
   return (
    <>
    <CustomNavbar/>
-   {/* <LandingPage/> */}
-   {/* <Footer/> */}
-   {/* <Price_component/> */}
+   <LandingPage/>
+   <Price_component/>
+   <Footer/>
    </>
   );
 }
